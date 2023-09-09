@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% block title %}
+    About    
+{% endblock title %} 
+{% block About %}
+active
+{% endblock About %}
+{% block body %}
+  <div class="container">
+    <h1 class="text-center">Welcome to  Startup Training Institute Sanawad</h1>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        /* Add your responsive CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:white;
+            
+        }
+        
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        h2 {
+            margin-top: 30px;
+            font-size: 24px;
+        }
+        
+        p {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        
+        /* Add media queries for responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+            h2 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Vision and Mission</h2>
+    <hr>
+    <p>We have a passionate and talented team working hard to make our mission a reality. Meet some of our key team members:</p>
+
+    <p>To enrich the knowledge & skill sets of young software engineers by providing value-added training in the areas of Software Development & Testing.</p>
+
+    <p>To serve the industries by providing trained human resources in the above areas.</p>
+
+    <p>To provide quality Software Training & Consulting Services in the areas of Python,Django, Django Rest Framework, UI Technology, Database Administration, Content Management with Live Projects.</p>
+</body>
+</html>
+
+{% endblock body %}
